@@ -1,0 +1,64 @@
+.s-container{
+    display: flex;
+    margin-right: 30px;
+    margin-left: 30px;
+    justify-content: flex-start;
+}
+.s-c-left{
+    width: 80%
+}
+.s-c-l-listitem{
+    padding: 20px 20px;
+}
+.s-c-l-listitem ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;  
+}
+.s-c-l-listitem li{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.s-c-l-l-item{
+    width: 300px;
+}
+.s-c-l-l-i-img{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 10px 10px;
+    border: 1px solid orange;
+    height: 100px;
+    text-align: center;
+}
+.s-c-l-l-i-img p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orange;
+    width: 150px;
+    height: 80px;   
+}
+.s-c-l-l-i-name{
+    border: 1px solid purple;
+    background-color: plum;
+    color: aliceblue;
+    text-align: center;
+}
+.s-c-l-l-i-listprice{
+    display: flex;
+    border: 1px solid red;
+}
+.s-c-l-l-i-listprice ul{
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+.s-c-l-l-i-l-p-oldprice{
+    text-decoration: line-through;
+}
+.s-c-l-l-i-l-p-newprice{
+    color: blue;
+}
